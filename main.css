@@ -15,6 +15,7 @@ body {
     border-radius: 50%;
     background: linear-gradient(#FFF9E0, #FFEB94, #E0CF82);
     animation: animate 1.2s linear infinite;
+    right: 2%;
 }
 
 .text {
