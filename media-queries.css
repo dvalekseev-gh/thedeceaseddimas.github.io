@@ -1,0 +1,34 @@
+@media only screen and (max-width: 922px) {
+    body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #33322D;
+}
+
+.loader {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(#FFF9E0, #FFEB94, #E0CF82);
+    animation: animate 1.2s linear infinite;
+    margin: 2%;
+    right: 0%;
+}
+
+.text {
+    position: relative;
+    font-family: 'Prata', serif;
+    color: #FFF9E0;
+    font-size: 14pt;
+    margin: 2%;
+    text-align: center;
+    left: 0%;
+}
+    
+}
