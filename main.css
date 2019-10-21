@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #33322D;
+    background: #40403E;
 }
 
 .loader {
@@ -13,7 +13,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: linear-gradient(#FFF9E0, #FFEB94, #E0CF82);
+    background: linear-gradient(#FFFFF7, #E6E6DF, #BFBFBA);
     animation: animate 1.2s linear infinite;
     right: 2%;
 }
@@ -26,20 +26,6 @@ body {
     font-size: 14pt;
     width: 80
 }
-
-.mainl {
-    color: #FFF9E0;
-}
-
-.bott {
-    position: relative;
-    text-align: center
-    font-family: 'Prata', serif;
-    color: #FFF9E0;
-    font-size: 14pt;
-    opacity: 0.3;
-}
-
 
 @keyframes animate {
     0% {
@@ -55,7 +41,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: linear-gradient(#FFF9E0, #FFEB94, #E0CF82);
+    background: linear-gradient(#FFFFF7, #E6E6DF, #BFBFBA);
 }
 
 .loader span:nth-child(1) {
