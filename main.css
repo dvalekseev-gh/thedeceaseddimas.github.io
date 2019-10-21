@@ -32,8 +32,7 @@ body {
 }
 
 .bott {
-    position: absolute;
-    bottom: 5px;
+    position: relative;
     text-align: center
     font-family: 'Prata', serif;
     color: #FFF9E0;
